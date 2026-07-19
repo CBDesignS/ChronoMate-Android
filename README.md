@@ -12,11 +12,12 @@
 
 ## Overview
 
-ChronoMate 2026 is a lightweight desktop application for recording air rifle chronograph sessions.
+ChronoMate 2026 is a lightweight Android application for recording air rifle chronograph sessions.
 
 Designed to be simple, fast and completely offline, ChronoMate allows you to record shot strings, calculate muzzle energy, manage rifle and pellet information, save rifle profiles, and generate professional printable reports.
 
-No installation is required. Simply extract the release archive and open **ChronoMate.html** using a supported desktop browser.
+Download the Latest Release ChronoMate.apk
+install and it will add the ChronoMate App icon to your desired Launcher page. click to run and add your details and get Adding Chrono shots.
 
 ---
 
@@ -24,7 +25,6 @@ No installation is required. Simply extract the release archive and open **Chron
 
 * Lightweight and portable
 * Runs completely offline
-* No installation required
 * Professional printable reports
 * Automatic ft-lb and Joule calculations
 * Supports FPS and m/s
