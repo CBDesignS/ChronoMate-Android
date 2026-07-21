@@ -278,6 +278,44 @@ footer{
     transform:translateX(30px);
 }
 
+/* Wide tablet header
+   Newer 10-inch Fire tablets report a wider CSS viewport than older models.
+   Stack the header before the desktop layout becomes cramped. */
+@media(min-width:761px) and (max-width:1050px){
+
+    .header{
+        flex-direction:column;
+        align-items:stretch;
+        gap:20px;
+    }
+
+    .header-left{
+        width:100%;
+    }
+
+    .header-right{
+        width:100%;
+        display:grid;
+        grid-template-columns:minmax(0,1fr) 92px;
+        align-items:end;
+        gap:16px;
+    }
+
+    .setting{
+        min-width:0;
+    }
+
+    .backup-setting{
+        grid-column:1 / -1;
+    }
+
+    .backup-buttons{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+    }
+}
+
 /* Mobile */
 
 @media(max-width:760px){

@@ -1,5 +1,16 @@
 # ChronoMate Android Changelog
 
+## v0.6.8
+
+### Fixed
+
+- Corrected the top header layout on newer wide-screen Fire HD 10 tablets in landscape orientation.
+- Added a tablet-width header breakpoint so the title area and settings use the full available width instead of leaving an unused area on the right.
+- Kept the existing phone, older Fire tablet, desktop, import, keyboard and report behaviour unchanged.
+- Updated Android application version to v0.6.8 with versionCode 22.
+
+---
+
 ## v0.6.7
 
 - Improved Fire OS shot-entry workflow.
